@@ -4,8 +4,8 @@ This repository contains the code and thesis for the Masters thesis:
 
 **"Algorithmic Pricing with AI Agents: A Comparative Analysis of DeepReinforcement Learning Approaches"**  
 Aditya Goswami
-University of Bonn
-2026
+[University of Bonn]
+[2026]
 
 ## Abstract
 
@@ -17,11 +17,11 @@ prices close to the Nash equilibrium benchmark. This suggests that algorithm arc
 ### Q-Learning
 
 Open `code/Qlearning.py`,`code/qlearning_nas.py`,`code/qlearning_N,py` and run all cells. The simulation 
-runs $K = 10$ independent experiments each with a maximum of $T_Q = 500,000$ iterations.Note: 'nas' corresponds to 'no adverse selection' and 'N' corresponds to 'N number of dealers'
+runs $K = 10$ independent experiments each with a maximum of $T_Q = 500,000$ iterations. Note: 'nas' corresponds to 'no adverse selection' and 'N' corresponds to 'N number of dealers'
 
 ### DDPG
 
-Open `code/DDPG.py`, `code/DDPG_nas.py`, `code/DDPG_N.py` and run all cells. The simulation runs $K = 10$ independent experiments each with $T_D = 154,000$ iterations, calibrated to the mean convergence iteration of the Q-learning algorithm. Note: 'nas' corresponds to 'no adverse selection' and 'N' corresponds to 'N number of dealers'
+Open `code/DDPG.py`, `code/DDPG_nas.py`, `code/DDPG_N.py`, `code/DDPG_N_nas.py` and run all cells. The simulation runs $K = 10$ independent experiments each with $T_D = 154,000$ iterations, calibrated to the mean convergence iteration of the Q-learning algorithm. Note: 'nas' corresponds to 'no adverse selection' and 'N' corresponds to 'N number of dealers'
 
 ### Generating the Plots
 
